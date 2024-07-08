@@ -1,0 +1,43 @@
+In this credit banking project, I performed a series of detailed analyses to derive insights from customer spending and repayment data.
+
+Here’s a summary of what I accomplished:
+
+
+
+1. Sanity Checks and Data Cleaning: 
+
+I addressed issues with the dataset by replacing ages under 18 with the mean age of other customers. This approach was chosen over removing the records because the dataset contained a significant number of such entries, which would have led to loss of valuable information.
+
+
+
+2. Monthly Calculations:
+ 
+I implemented logic to compute metrics on a monthly basis rather than cumulatively. This included calculating the monthly spend and repayment for each customer, and determining the highest paying customers.
+
+
+
+3. Credit Limit Analysis: 
+
+I merged spend and acquisition data to identify customers who exceeded their credit limit in any given month. This helped in understanding which customers faced credit limit issues and when these occurred.
+
+
+
+4. Segmentation and Spending Insights: 
+
+I analysed spending patterns across different customer segments and age groups. This involved identifying which segments and age groups spent the most and which category was the most profitable.
+
+
+
+5. Interest and Profit Calculation: 
+
+I applied a 2.9% interest rate to any due amounts and calculated the monthly profit for the bank, providing a clear picture of profitability.
+
+
+
+6. Visualisation: 
+
+I created various visualisations to present these findings effectively. This included bar graphs to compare due amounts and interest per customer, pie charts for monthly profit distribution, and detailed graphs highlighting customers who exceeded their credit limits.
+
+
+
+Overall, this project demonstrated my ability to perform rigorous data cleaning, execute detailed analyses, and present actionable insights through effective visualisations. It also showcased my proficiency in using Python and various libraries for data manipulation and visualisation, making it clear that I can handle complex datasets and deliver meaningful results.
